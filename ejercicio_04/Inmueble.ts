@@ -1,8 +1,10 @@
 interface Inmueble {
-  _tipo: string;
-  _metrosCuadrados: number;
-  _direccion: string;
-
-  alquilar();
+  tipo: string;
+  metrosCuadrados: number;
+  direccion: string;
+  alquilar(): void;
 }
-export default Inmueble;
+
+export interface Departamento extends Inmueble {
+  precio: number;
+}

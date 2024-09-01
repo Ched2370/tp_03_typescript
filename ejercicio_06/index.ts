@@ -11,3 +11,22 @@
 
 !Instanciar un objeto Menu.
 */
+import { Menu } from './Menu';
+
+const menu = new Menu(
+  'Ensalada de brocoli, manzana y nueces',
+  'Sorrentinos de cordero con salsa',
+  45
+);
+
+console.log(`
+  Menu
+  entrada: ${menu.entrada},
+  plato principal: ${menu.platoPrincipal},
+  costo: u$a ${menu.costo}
+  ------------------------------------------------
+  Postre
+  nombre: ${menu.nombre},
+  precio: u$a ${menu.precio},
+  ------------------------------------------------
+  total: u$a ${menu.precio + menu.costo}`);
