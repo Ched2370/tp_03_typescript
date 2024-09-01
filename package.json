@@ -1,0 +1,18 @@
+{
+  "name": "tp_03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "ts-node ejercicio_01/index.ts",
+    "start": "ts-node ejercicio_01/index.js",
+    "dev2": "ts-node ejercicio_02/index.ts",
+    "dev3": "ts-node ejercicio_03/index.ts",
+    "dev4": "ts-node ejercicio_04/index.ts",
+    "dev5": "ts-node ejercicio_05/index.ts",
+    "dev6": "ts-node ejercicio_06/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
