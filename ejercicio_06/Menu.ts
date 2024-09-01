@@ -2,6 +2,9 @@ import { Postre } from './Postre';
 export class Menu implements Postre {
   nombre: string = 'Flan con dulce de leche';
   precio: number = 15;
+  mostrar_precio(): number {
+    return this.precio * 0.15 + this.precio;
+  }
   constructor(
     private _entrada: string,
     private _plato_principal: string,

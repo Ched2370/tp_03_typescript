@@ -28,5 +28,6 @@ console.log(`
   Postre
   nombre: ${menu.nombre},
   precio: u$a ${menu.precio},
+  con descuento: u$a ${menu.mostrar_precio()}
   ------------------------------------------------
-  total: u$a ${menu.precio + menu.costo}`);
+  total: u$a ${menu.mostrar_precio() + menu.costo}`);
